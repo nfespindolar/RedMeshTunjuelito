@@ -1,0 +1,7 @@
+
+
+echo -e "binary\nrexmt 1\ntimeout 60\ntrace\nput openwrt-ar71xx-generic-ubnt-nano-m-squashfs-factory.bin flash_update\n" | tftp 192.168.1.20
+
+
+
+openwrt-ar71xx-generic-ubnt-nano-m-squashfs-factory.bin
